@@ -24,7 +24,9 @@ import javax.inject.Singleton
  * possible only if they are collected regularly. A periodic WorkManager job does this
  * without a foreground service or a permanent notification, and Android is free to
  * batch it with other work to save battery.
- * Note: This is required only if the app has not been opened for a while. This is because th
+ *
+ * Note: this job matters only when the app has not been opened for a while. The app also
+ * syncs every time it is opened, so the periodic job just fills the gaps between visits.
  */
 @HiltWorker
 class UsageSyncWorker @AssistedInject constructor(
