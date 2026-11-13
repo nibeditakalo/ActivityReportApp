@@ -34,7 +34,10 @@ class FakeActivityRepository : ActivityRepository {
             }
         }
 
-    override suspend fun sync() {}
+    var syncCalled = false
+    override suspend fun sync() {
+        syncCalled = true
+    }
 
     override suspend fun recordNotification(packageName: String, timestampMs: Long) {}
 }
