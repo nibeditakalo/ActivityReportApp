@@ -8,12 +8,12 @@ plugins {
 android {
     namespace = "com.nk.activityreportapp"
     compileSdk {
-        version = release(37)
+        version = release(36)
     }
 
     defaultConfig {
         applicationId = "com.nk.activityreportapp"
-        minSdk = 24
+        minSdk = 29
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
