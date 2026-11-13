@@ -1,3 +1,59 @@
 <resources>
-    <string name="app_name">ActivityReportApp</string>
+    <string name="app_name">Activity Report</string>
+    <string name="notification_service_label">Activity Report notification counter</string>
+
+    <string name="onboarding_title">Your week on your phone</string>
+    <string name="onboarding_body">Activity Report shows how you spent time on your phone each week: time per app, how often you opened apps, unlocks, notifications, and apps you installed or removed.</string>
+    <string name="onboarding_permission_title">One permission is required</string>
+    <string name="onboarding_permission_body">Android only shares app usage with apps you approve under “Usage access”. Tap the button, find Activity Report in the list and switch it on.</string>
+    <string name="onboarding_privacy_title">Private by design</string>
+    <string name="onboarding_privacy_body">Everything is computed and stored on this device. The app has no internet permission, so nothing can leave your phone.</string>
+    <string name="onboarding_grant">Open usage access settings</string>
+
+    <string name="report_title">Weekly report</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_previous_week">Previous week</string>
+    <string name="action_next_week">Next week</string>
+    <string name="action_back">Back</string>
+    <string name="week_range">%1$s – %2$s</string>
+    <string name="this_week">This week</string>
+
+    <string name="summary_screen_time">Screen time</string>
+    <string name="summary_daily_average">Daily average %1$s</string>
+    <string name="summary_vs_last_week_up">%1$d%% more than the week before</string>
+    <string name="summary_vs_last_week_down">%1$d%% less than the week before</string>
+    <string name="summary_vs_last_week_same">Same as the week before</string>
+    <string name="summary_no_previous_week">No data for the week before</string>
+
+    <string name="stat_unlocks">Unlocks</string>
+    <string name="stat_notifications">Notifications</string>
+    <string name="stat_video">Video apps (est.)</string>
+    <string name="stat_notifications_off">Off</string>
+    <string name="notifications_cta_title">Count notifications too?</string>
+    <string name="notifications_cta_body">Optional. Only the number of notifications per app is stored, never their content.</string>
+    <string name="notifications_cta_action">Enable</string>
+    <string name="top_notifier">Most notifications: %1$s (%2$d)</string>
+
+    <string name="section_highlights">Highlights</string>
+    <string name="section_daily">Per day</string>
+    <string name="section_apps">Apps</string>
+    <string name="section_changes">Installed and removed</string>
+    <string name="app_opens">Opened %1$d times</string>
+    <string name="change_installed">Installed</string>
+    <string name="change_uninstalled">Removed</string>
+    <string name="changes_none">No apps installed or removed this week.</string>
+
+    <string name="highlight_busiest_day">Busiest day: %1$s with %2$s</string>
+    <string name="highlight_most_used">Most used: %1$s, %2$d%% of your screen time</string>
+    <string name="highlight_most_opened">Most opened: %1$s, %2$d times</string>
+
+    <string name="empty_title">No activity recorded for this week</string>
+    <string name="empty_body">Android keeps detailed usage events for only a few days, so weeks before the app was installed cannot be rebuilt.</string>
+    <string name="sync_failed">Could not refresh usage data. Showing what is already stored.</string>
+    <string name="footer_note">Video time is an estimate: time spent in apps that declare themselves as video apps. Game high scores and ads seen are not available to other apps on Android.</string>
+
+    <string name="detail_total">Time this week</string>
+    <string name="detail_opens">Times opened</string>
+    <string name="detail_average_session">Average session</string>
+    <string name="detail_notifications">Notifications</string>
 </resources>
