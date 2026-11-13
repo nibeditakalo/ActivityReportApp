@@ -14,7 +14,7 @@ import androidx.room.RoomDatabase
     version = 1,
     exportSchema = false,
 )
-internal abstract class ActivityDatabase : RoomDatabase() {
+abstract class ActivityDatabase : RoomDatabase() {
     abstract fun usageDao(): UsageDao
     abstract fun notificationDao(): NotificationDao
     abstract fun appDao(): AppDao
